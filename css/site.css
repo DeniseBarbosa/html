@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    
+    
+}
+.cabecalho{
+    background-color:  rgba(80, 80, 223, 0.726);
+    height: 58px;
+    width: 100%;
+    padding: 18px 32px;
+   
+    
+}
+.banner img{
+    width: 100%;
+    height: 400px;
+}
+a{
+    padding: 5px;
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.secao{
+    /* 25px cima e baixo (top and bottom) e 32px esquerdo e direito (left and right) */
+    
+    padding: 25px 32px;
+    color: #d48e15;
+    
+}
+.card-produtos{
+    display: inline-block; 
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(221, 214, 214);
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/* car-produtos img vai se encaixar dentro da div pai que é .card-produtos */
+.card-produtos img{
+    width: 100%;
+    height: 220px;
+}
+
+.rodape{
+    background-color:  rgba(80, 80, 223, 0.726);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 90px;
+    
+}
+.rodape a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
