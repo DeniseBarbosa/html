@@ -30,8 +30,11 @@ a{
     /* 25px cima e baixo (top and bottom) e 32px esquerdo e direito (left and right) */
     
     padding: 25px 32px;
-    color: #d48e15;
+    color: rgba(80, 80, 223, 0.726);
     
+}
+.secao p{
+    color: black;
 }
 .card-produtos{
     display: inline-block; 
